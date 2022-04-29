@@ -254,19 +254,21 @@ ol {
 .header__options__mobile{
 	display: none;
 }
+.header__bottom__nav__search__btn{
+	width: 50px;
+	height: 100%;
+}
 .header__bottom__nav__search__btn, .banner__collections__mobile__btn{
-	height:100%;
-	max-width: 50px;
 	color: var(--whitecolor);
 	padding: 14px 20px;
 	border:none;
 	background: var(--greencolor);
 	cursor: pointer;
-	border-radius: 0 5px 5px 0;
-	-webkit-border-radius: 0 5px 5px 0;
-	-moz-border-radius: 0 5px 5px 0;
-	-ms-border-radius: 0 5px 5px 0;
-	-o-border-radius: 0 5px 5px 0;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
 }
 .banner__collections__mobile__btn{
 	display: none;
@@ -1845,7 +1847,7 @@ outline: none;
 	width: 24%;
 	padding: 12px 8px 12px;
 	border-left: 1.5px solid #E3E3E3C7;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 17px;
 }
 

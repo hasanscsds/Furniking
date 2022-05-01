@@ -24,8 +24,6 @@ $('.customer__comments__block .container .owl-carousel').owlCarousel({
    loop:true,
    nav:true,
    dots: false,
-   animateOut: 'fadeOut',
-   animateIn: 'fadeIn',
    responsiveClass:true,
    autoplay: true,
    autoplaySpeed: 2000,

@@ -67,4 +67,6 @@ $('.banner__block .container  .owl-carousel').owlCarousel({
       }
    }
 })
-
+$(".banner__collections__mobile__btn").click(function(){
+   $(".banner__collections").toggleClass("display__toggle")
+})

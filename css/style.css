@@ -2379,10 +2379,13 @@ outline: none;
 	margin: 0;
 }
 .banner__collections{
-	display: inherit;
+	display: none;
 	width: 100vw;
 	height: 100vh;
 	z-index: 333;
+}
+.display__toggle{
+	display: inherit;
 }
 .banner__collections__btn{
 	width: 100%;

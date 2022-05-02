@@ -1309,8 +1309,29 @@ outline: none;
 .social__contacts{
 	display: flex;
 }
-.social__contacts li{
-	margin-right: 15PX;
+.social__contacts .social__contacts__item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+	height: 32.20000076293945px;
+	width: 32.20000076293945px;
+	border: 1px solid rgba(85, 85, 85, 1);
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.social__contacts .social__contacts__item:hover{
+	border: 1px solid var(--greencolor);
+}
+.social__contacts .social__contacts__item a{
+	color: rgba(85, 85, 85, 1);
+	margin-top: 3px;
+}
+.social__contacts .social__contacts__item:hover a{
+	color: var(--greencolor);
 }
 .footer__widget__label{
 	font-weight: 700;
@@ -1965,6 +1986,9 @@ outline: none;
 	.header__bottom__nav{
 		padding: 15px 0;
 	}
+	.header__bottom__nav__logo {
+		width: 25%;
+  }
 	.header__bottom__nav__search{
 		height: 40px;
 		width: fit-content;
@@ -2026,7 +2050,9 @@ outline: none;
 	.banner__collections__sidebar__nav{
 		text-align: center;
 	}
-	
+	.banner__collections__sidebar__nav .nav__item{
+		padding: 14px 30px;
+	}
 	.banner__collections__sidebar__nav .nav__item:hover{
 		transform: scale(1.01);
 		transition: ease-in-out;
@@ -2041,7 +2067,7 @@ outline: none;
 		font-family: "Rubik", sans-serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 17px;
 		letter-spacing: 0.02em;
 		color: #555555;
@@ -2336,7 +2362,9 @@ outline: none;
 	.header__bottom__nav{
 		padding: 15px 0;
 	}
-	
+	.header__bottom__nav__logo {
+		width: 25%;
+  }
 	.header__bottom__nav__search{
 		height: 40px;
 		width: 100%;
@@ -2386,6 +2414,8 @@ outline: none;
 	margin: 0;
 }
 .banner__collections{
+	display: none;
+
 	width: 100vw;
 	height: 100vh;
 	z-index: 333;
@@ -2395,6 +2425,7 @@ outline: none;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+
 }
 .icon_close{
 	display: inherit;
@@ -2406,10 +2437,6 @@ outline: none;
 .banner__collections__sidebar__nav{
 	text-align: center;
 }
-
-
-
-
 .banner__collections__sidebar__nav .nav__item:hover{
 	transform: scale(1.01);
 	transition: ease-in-out;

@@ -67,6 +67,11 @@ $('.banner__block .container  .owl-carousel').owlCarousel({
       }
    }
 })
-$(".banner__collections__mobile__btn").click(function(){
-   $(".banner__collections").toggleClass("display__toggle")
-})
+$(document).ready(function() {
+   $(".banner__collections__mobile__btn").click(function(){
+      $(".banner__collections").toggle(500)
+   })
+   $(".icon_close").click(function(){
+      $(".banner__collections").toggle(500)
+   })
+});

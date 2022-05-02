@@ -1646,25 +1646,30 @@ outline: none;
 		margin: 0;
 	}
 	.banner__collections{
-		display: none;
 		width: 100vw;
 		height: 100vh;
 		z-index: 333;
+	}
+	.banner__collections__btn{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.icon_close{
+		display: inherit;
 	}
 	.banner__collections__mobile__btn{
 		display: inherit;
 		padding: 0;
 	}
-	/*.banner__collections__sidebar__nav{
-		display: flex;
-		flex-direction: column;
-		margin: 0px;
+	.banner__collections__sidebar__nav{
+		text-align: center;
 	}
-	.banner__collections__sidebar__nav .nav__item{
-		padding: 12px 30px;
-		background: #F7F8FA;
-		width: 260px;
-	}
+	
+	
+	
+	
 	.banner__collections__sidebar__nav .nav__item:hover{
 		transform: scale(1.01);
 		transition: ease-in-out;
@@ -1689,7 +1694,7 @@ outline: none;
 	}
 	.banner__collections__sidebar__nav .nav__item .nav__link{
 		text-transform: capitalize;
-	}*/
+	}
 	.banner__menu__navbar {
 		width: 100%;
 		justify-content: center;
@@ -1998,7 +2003,6 @@ outline: none;
 		margin: 0;
 	}
 	.banner__collections{
-		display: none;
 		width: 100vw;
 		height: 100vh;
 		position: absolute;
@@ -2006,20 +2010,23 @@ outline: none;
 		z-index: 333;
 	}
 
+	.banner__collections__btn{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.icon_close{
+		display: inherit;
+	}
 	.banner__collections__mobile__btn{
 		display: inherit;
 		padding: 0;
 	}
-	/*.banner__collections__sidebar__nav{
-		display: flex;
-		flex-direction: column;
-		margin: 0px;
+	.banner__collections__sidebar__nav{
+		text-align: center;
 	}
-	.banner__collections__sidebar__nav .nav__item{
-		padding: 12px 30px;
-		background: #F7F8FA;
-		width: 260px;
-	}
+	
 	.banner__collections__sidebar__nav .nav__item:hover{
 		transform: scale(1.01);
 		transition: ease-in-out;
@@ -2044,11 +2051,6 @@ outline: none;
 	}
 	.banner__collections__sidebar__nav .nav__item .nav__link{
 		text-transform: capitalize;
-	}*/
-	.banner__menu__navbar {
-		width: 100%;
-		justify-content: center;
-		margin: 0 auto;
 	}
 	.banner__menu__navbar .nav__item:not(:last-child){
 		margin-right: 45px;
@@ -2404,9 +2406,6 @@ outline: none;
 .banner__collections__sidebar__nav{
 	text-align: center;
 }
-
-
-
 
 
 

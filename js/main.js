@@ -69,9 +69,9 @@ $('.banner__block .container  .owl-carousel').owlCarousel({
 })
 $(document).ready(function() {
    $(".banner__collections__mobile__btn").click(function(){
-      $(".banner__collections").toggle(500)
+      $(".banner__collections").toggleClass("active").toggle(500)
    })
    $(".icon_close").click(function(){
-      $(".banner__collections").toggle(500)
+      $(".banner__collections").toggleClass("active").toggle(500)
    })
 });

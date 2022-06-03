@@ -1064,6 +1064,10 @@ outline: none;
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
 }
+.special__offers__products__item img{
+	width: 100%;
+}
+	
 .special__offers__products__item .label{
 	right: 0!important;
 	padding: 0.125em 0.5em;

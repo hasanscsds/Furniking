@@ -2224,12 +2224,6 @@ outline: none;
 
 .banner__collections {
 	display: none;
-
-}
-.banner__collections.active{
-	width: 100vw;
-	height: 100vh;
-	display:inherit;
 	text-align: center;
 	position: fixed;
 	top: 0;
@@ -2237,6 +2231,11 @@ outline: none;
 	right: 0;
 	left: 0;
 	z-index: 9999;
+	width: 100vw;
+	height: 100vh;
+}
+.banner__collections.active{
+	display:inherit;
 }
 .banner__collections__btn{
 	width: 100%;

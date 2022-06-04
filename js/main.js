@@ -74,4 +74,7 @@ $(document).ready(function() {
    $(".icon_close").click(function(){
       $(".banner__collections").toggleClass("active").toggle(500)
    })
+   $(".banner__collections__sidebar__nav .nav__item").click(function(){
+      $(".banner__collections").toggleClass("active").toggle(500)
+   })
 });
